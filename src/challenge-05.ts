@@ -1,4 +1,3 @@
-import { A } from "ts-toolbelt";
 import { Equal, Expect } from "./utils";
 
 type First<T extends unknown[]> = T extends [infer First, ...infer _]
