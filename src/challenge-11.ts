@@ -1,4 +1,3 @@
-import { Tail } from "ts-toolbelt/out/List/Tail";
 import { Equal, Expect } from "./utils";
 
 type Includes<T extends readonly any[], U> = T extends [
