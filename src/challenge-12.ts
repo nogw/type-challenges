@@ -1,4 +1,3 @@
-import { T } from "ts-toolbelt";
 import { Equal, Expect } from "./utils";
 
 type Push<T extends unknown[], U> = [...T, U];
